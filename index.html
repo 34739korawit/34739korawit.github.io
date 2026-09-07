@@ -1,32 +1,339 @@
-<!-- นี่คือโครงสร้างหน้าเว็บทังหมด ้ -->
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<title>หน้าแนะนำตัวของฉัน</title>
-<style>
-body {
-background-color: #f4f7f6; color: #333;
-text-align: center; padding: 50px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-}
-.card {
-background: grey; border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-max-width: 500px; margin: 0 auto; padding: 30px;
+    <title>Portfolio | กรวิชญ์ สุระสิน</title>
 
-}
-h1 { color: #2c3e50; }
-p { font-size: 18px; line-height: 1.6; }
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="card">
-<h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน </h1>
-<p>สวัสดีครับ! ผมชื่อ <strong>กรวิชญ์ สุระสิน (korawit Surasin)</strong></p>
-<p>ขณะนี้กำลังศึกษา/สนใจด้าน Computer Science & Engineering</p>
-<p>นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!</p>
-  <a href="portfolio.html"style="display:inline:#34739korawit;color:whitye;padding:10px20px;text-decoration:none;border-radius:5px;margin-top:15px;">👉ดูเเฟ้มสะสมผลงานของผม</a>
-</div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">NICK<span>.</span></div>
+
+        <div class="nav-links">
+            <a href="#home">หน้าแรก</a>
+            <a href="#about">แนะนำตัว</a>
+            <a href="#education">การศึกษา</a>
+            <a href="#skills">ความสามารถ</a>
+            <a href="#goal">เป้าหมาย</a>
+            <a href="#contact">ติดต่อ</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                สวัสดีครับ ผม<br>
+                <span>กรวิชญ์ สุระสิน</span>
+            </h1>
+
+            <h2>นิค | นักเรียนเตรียมวิศวกรรมศาสตร์</h2>
+
+            <p class="description">
+                นักเรียนชั้นมัธยมศึกษาปีที่ 6 ผู้มีความสนใจด้านวิศวกรรมศาสตร์
+                โดยเฉพาะสาขาวิศวกรรมโยธา และมีเป้าหมายในการพัฒนาตนเอง
+                เพื่อก้าวไปสู่การเป็นผู้จัดการโครงการในอนาคต
+            </p>
+
+            <div class="buttons">
+                <a href="#about" class="btn primary">รู้จักผมมากขึ้น</a>
+                <a href="#contact" class="btn secondary">ติดต่อผม</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+            <div class="profile-circle">
+                <span>NK</span>
+            </div>
+
+            <h3>KRORAWIT SURASIN</h3>
+            <p>Civil Engineering Aspirant</p>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>แนะนำตัว</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <h3>สวัสดีครับ ผม "นิค"</h3>
+
+                <p>
+                    ผมชื่อ นายกรวิชญ์ สุระสิน ชื่อเล่นนิค อายุ 17 ปี
+                    ปัจจุบันกำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่ 6/5
+                    โรงเรียนบ้านบึง “อุตสาหกรรมนุเคราะห์” จังหวัดชลบุรี
+                </p>
+
+                <p>
+                    ผมศึกษาอยู่ในแผนการเรียนเตรียมวิศวกรรมศาสตร์
+                    ทำให้ผมมีความสนใจในด้านวิศวกรรมและการนำความรู้
+                    ทางวิทยาศาสตร์ คณิตศาสตร์ และเทคโนโลยี
+                    มาประยุกต์ใช้ในการแก้ปัญหา
+                </p>
+
+                <p>
+                    สาขาที่ผมสนใจเป็นพิเศษคือ
+                    <strong>วิศวกรรมโยธา</strong>
+                    เพราะเป็นสาขาที่เกี่ยวข้องกับการออกแบบ
+                    การก่อสร้าง และการพัฒนาโครงสร้างพื้นฐาน
+                    ซึ่งเป็นสิ่งสำคัญต่อการพัฒนาสังคม
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <div class="info-item">
+                    <span>ชื่อ-นามสกุล</span>
+                    <strong>นายกรวิชญ์ สุระสิน</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>ชื่อเล่น</span>
+                    <strong>นิค</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>อายุ</span>
+                    <strong>17 ปี</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>จังหวัด</span>
+                    <strong>ชลบุรี</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>ระดับชั้น</span>
+                    <strong>ม.6/5</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>แผนการเรียน</span>
+                    <strong>เตรียมวิศวกรรมศาสตร์</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="section dark-section">
+
+        <div class="section-title">
+            <p>EDUCATION</p>
+            <h2>ประวัติการศึกษา</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="year">ปัจจุบัน</span>
+
+                    <h3>
+                        โรงเรียนบ้านบึง “อุตสาหกรรมนุเคราะห์”
+                    </h3>
+
+                    <p>
+                        ระดับชั้นมัธยมศึกษาปีที่ 6/5
+                    </p>
+
+                    <p>
+                        แผนการเรียนเตรียมวิศวกรรมศาสตร์
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <p>MY SKILLS</p>
+            <h2>ความสามารถและความสนใจ</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="skill-card">
+                <div class="icon">🏀</div>
+                <h3>การเล่นบาสเกตบอล</h3>
+                <p>
+                    เป็นกิจกรรมที่ช่วยฝึกการทำงานเป็นทีม
+                    การตัดสินใจ และความมีวินัย
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🚗</div>
+                <h3>การแต่งรถ</h3>
+                <p>
+                    งานอดิเรกที่ช่วยให้ผมได้เรียนรู้เกี่ยวกับ
+                    การออกแบบ ความสวยงาม และรายละเอียดต่าง ๆ
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🏗️</div>
+                <h3>ความสนใจด้านวิศวกรรม</h3>
+                <p>
+                    สนใจการออกแบบ การก่อสร้าง
+                    และการทำงานด้านวิศวกรรมโยธา
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Goal -->
+    <section id="goal" class="section goal-section">
+
+        <div class="section-title">
+            <p>MY GOAL</p>
+            <h2>เป้าหมายในอนาคต</h2>
+        </div>
+
+        <div class="goal-box">
+
+            <div class="goal-icon">🏗️</div>
+
+            <h3>วิศวกรรมโยธา</h3>
+
+            <p>
+                เป้าหมายของผมคือการศึกษาต่อในคณะวิศวกรรมศาสตร์
+                สาขาวิศวกรรมโยธา เพื่อพัฒนาความรู้และทักษะ
+                ที่จำเป็นสำหรับการทำงานในสายวิศวกรรม
+            </p>
+
+            <p>
+                ในอนาคตผมตั้งใจที่จะประกอบอาชีพ
+                <strong>ผู้จัดการโครงการ (Project Manager)</strong>
+                โดยต้องการนำความรู้ด้านวิศวกรรม
+                การบริหารงาน และการทำงานร่วมกับผู้อื่น
+                มาประยุกต์ใช้ในการบริหารโครงการก่อสร้าง
+                ให้สำเร็จตามเป้าหมาย
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Activities -->
+    <section class="section dark-section">
+
+        <div class="section-title">
+            <p>ACTIVITIES</p>
+            <h2>ผลงานและกิจกรรม</h2>
+        </div>
+
+        <div class="empty-box">
+
+            <div class="empty-icon">📁</div>
+
+            <h3>อยู่ระหว่างการรวบรวมผลงาน</h3>
+
+            <p>
+                ในปัจจุบันยังไม่มีผลงานหรือเกียรติบัตรที่ต้องการนำเสนอ
+                และจะมีการเพิ่มเติมผลงานในอนาคต
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>CONTACT</p>
+            <h2>ช่องทางการติดต่อ</h2>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <span>📧</span>
+                <h3>Email</h3>
+                <p>s34739@banbung.ac.th</p>
+            </div>
+
+            <div class="contact-card">
+                <span>📱</span>
+                <h3>โทรศัพท์</h3>
+                <p>099-190-8106</p>
+            </div>
+
+            <div class="contact-card">
+                <span>📷</span>
+                <h3>Instagram</h3>
+                <p>nic_ko_o</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>KRORAWIT SURASIN</h3>
+
+        <p>
+            Portfolio | Civil Engineering
+        </p>
+
+        <p class="copyright">
+            © 2026 Krorawit Surasin. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
